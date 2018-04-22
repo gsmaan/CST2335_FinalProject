@@ -1,0 +1,49 @@
+<patients>
+    <patient>
+        <name>Shreyansh</name>
+        <healthcardno>12345</healthcardno>
+		<address>Abcd</address>
+        <description>bla..bla..</description>
+		<phone>8866969594</phone>
+        <patienttype>1</patienttype>
+		<patientage>25</patientage>
+        <birthdate>1994-06-28</birthdate>
+		<surOrAller>No Allergies</surOrAller>
+		<isBraces>0</isBraces>
+		<isMedicalBenifits>1</isMedicalBenifits>
+		<storename>Wecome Opticals</storename>
+		<glassesBoughtDate>2018-04-02</glassesBoughtDate>
+    </patient>
+
+    <patient>
+        <name>Mehank</name>
+        <healthcardno>1345</healthcardno>
+		<address>Abcdef</address>
+        <description>bla..bla..bla...</description>
+		<phone>9586594280</phone>
+        <patienttype>2</patienttype>
+		<patientage>19</patientage>
+        <birthdate>1999-09-88</birthdate>
+		<surOrAller></surOrAller>
+		<isBraces>0</isBraces>
+		<isMedicalBenifits>1</isMedicalBenifits>
+		<storename></storename>
+		<glassesBoughtDate></glassesBoughtDate>
+    </patient>
+	
+	<patient>
+        <name>Dipen</name>
+        <healthcardno>1345</healthcardno>
+		<address>Abcdefgh</address>
+        <description>bla..bla..bla</description>
+		<phone>9586594280</phone>
+        <patienttype>3</patienttype>
+		<patientage>28</patientage>
+        <birthdate>1989-09-88</birthdate>
+		<surOrAller></surOrAller>
+		<isBraces>1</isBraces>
+		<isMedicalBenifits>1</isMedicalBenifits>
+		<storename>Krishna Opticals</storename>
+		<glassesBoughtDate>2016-02-05</glassesBoughtDate>
+    </patient>
+</patients>

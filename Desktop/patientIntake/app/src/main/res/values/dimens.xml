@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="main_margin">10dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="mar_20dp">20dp</dimen>
+    <dimen name="button_text_size">16dp</dimen>
+</resources>

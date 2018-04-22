@@ -1,0 +1,407 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorWhite"
+    android:layout_marginBottom="@dimen/mar_20dp"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/main_margin"
+        tools:context="com.conceptcore.patientintake.Fragments.UpdatePatient">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_name"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/etxtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:lines="1"
+            android:padding="@dimen/pad_10dp"
+            android:textColor="@color/colorAccent"
+            android:hint="@string/hint_patient_name"
+            android:textColorHint="@color/colorPrimary"
+            android:background="@drawable/style_textview_inactive"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/health_card_number"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/etxtHealthCardNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:lines="1"
+            android:textColor="@color/colorAccent"
+            android:padding="@dimen/pad_10dp"
+            android:hint="@string/hint_health_card_num"
+            android:textColorHint="@color/colorPrimary"
+            android:background="@drawable/style_textview_inactive"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/birth_date"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+
+        <TextView
+            android:id="@+id/txtBirthDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/style_textview_inactive"
+            android:hint="@string/hint_birth_date"
+            android:padding="@dimen/pad_10dp"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_address"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/etxtAddr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_patient_addr"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary"
+            android:lines="1"
+            android:padding="@dimen/pad_10dp"
+            android:maxLength="255"
+            android:background="@drawable/style_textview_inactive"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_description"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/etxtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_description"
+            android:textColor="@color/colorAccent"
+            android:textColorHint="@color/colorPrimary"
+            android:lines="1"
+            android:padding="@dimen/pad_10dp"
+            android:maxLength="255"
+            android:background="@drawable/style_textview_inactive"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_phone_number"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+
+        <EditText
+            android:id="@+id/etxtPhoneNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:hint="@string/hint_phone_num"
+            android:textColorHint="@color/colorPrimary"
+            android:textColor="@color/colorAccent"
+            android:inputType="number"
+            android:padding="@dimen/pad_10dp"
+            android:background="@drawable/style_textview_inactive"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/patient_type"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/colorBlack"/>
+
+        <RelativeLayout
+            android:id="@+id/rlDoctorType"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/spinner_border"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spDocType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@android:color/transparent"
+                android:gravity="center|center_vertical"
+                android:spinnerMode="dropdown" />
+
+            <ImageView
+                android:id="@+id/spinner_image"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/drop_arrow1" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Any previous surgeries or allergies?"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:id="@+id/etxtsurgeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
+                android:padding="@dimen/pad_10dp"
+                android:background="@drawable/style_textview_inactive"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llDentist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="@string/dentist_ques_1"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/colorBlack"/>
+
+                <RadioGroup
+                    android:id="@+id/rGroupHaveBraces"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rbtnBracesTrue"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:checked="true"
+                        android:text="@string/txtRadioTrue"
+                        app:buttonTint="@color/colorPrimary" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rbtnBracesFalse"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/txtRadioFalse"
+                        app:buttonTint="@color/colorPrimary" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    android:text="@string/dentist_ques_2"
+                    android:layout_marginTop="8dp"
+                    android:textColor="@color/colorBlack"/>
+
+                <RadioGroup
+                    android:id="@+id/rGroupMedicalBenifits"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rbtnMedicalYes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:checked="true"
+                        android:text="@string/txtRadioYes"
+                        app:buttonTint="@color/colorPrimary" />
+
+                    <android.support.v7.widget.AppCompatRadioButton
+                        android:id="@+id/rbtnMedicalNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:buttonTint="@color/colorPrimary"
+                        android:text="@string/txtRadioNo"
+                        app:buttonTint="@color/colorPrimary" />
+
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llOptometrist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/optometrist_ques"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorBlack"/>
+
+            <EditText
+                android:id="@+id/etxtstoreName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
+                android:padding="@dimen/pad_10dp"
+                android:background="@drawable/style_textview_inactive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Glasses bought date:"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/colorBlack"/>
+
+            <TextView
+                android:id="@+id/txtBoughtDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:hint="@string/hint_select_date"
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/colorPrimary"
+                android:padding="@dimen/pad_10dp"
+                android:background="@drawable/style_textview_inactive"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnUpdatePatient"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/txt_update_patient"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size" />
+
+            <Button
+                android:id="@+id/btnDeletePatient"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:background="@color/colorPrimary"
+                android:text="@string/txt_delete_patient"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/button_text_size" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

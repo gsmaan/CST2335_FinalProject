@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">PatientIntake</string>
+    <string name="action_help">Help</string>
+    <string name="action_statics">Statistics</string>
+    <string name="action_import">Import Xml</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--Add Patient-->
+    <string name="hint_patient_name">Enter Name</string>
+    <string name="hint_patient_addr">Enter Address</string>
+    <string name="hint_health_card_num">Enter Health Card Number</string>
+    <string name="hint_birth_date">Select Birth Date</string>
+    <string name="hint_phone_num">Enter Phone Number</string>
+    <string name="hint_description">Enter Description</string>
+    <string name="hint_birthdate">Select Birth Date</string>
+    <string name="hint_select_date">Select Date</string>
+    <string name="txt_add_patient">Add Patient</string>
+    <string name="txtRadioTrue">True</string>
+    <string name="txtRadioYes">Yes</string>
+    <string name="txtRadioFalse">False</string>
+    <string name="txtRadioNo">No</string>
+
+    <!--Update Patient-->
+    <string name="txt_update_patient">Update Patient</string>
+    <string name="txt_delete_patient">Delete Patient</string>
+
+    <!--User Help-->
+    <string name="dialog_ok_button">OK</string>
+    <string name="txt_author_name">Author: </string>
+    <string name="author_name">Student Name</string>
+
+    <string name="txt_act_version_num">Activity Version No: </string>
+    <string name="act_version_num">1.0</string>
+
+    <string name="txt_how_to_use">How to use interface?</string>
+    <string name="how_to_use">Use Add button to create a new patient record. You can use Statistics menu item to find out minimum, maximum, and average age of the patients added in the database. You can also import patients from an XML file into the system.</string>
+
+    <!--Statistics-->
+    <string name="txt_max_age">Maximum Age: </string>
+    <string name="txt_min_age">Minimum Age: </string>
+    <string name="txt_avg_age">Average Age: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--TextViews In Add and Update-->
+    <string name="patient_name">Patient Name:</string>
+    <string name="health_card_number">Health Card Number:</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="patient_address">Patient Address:</string>
+    <string name="patient_description">Patient Description:</string>
+    <string name="patient_phone_number">Patient Phone Number:</string>
+    <string name="patient_type">Patient Type:</string>
+    <string name="doc_ques">Any previous surgeries or allergies?</string>
+    <string name="dentist_ques_1">Having braces?</string>
+    <string name="dentist_ques_2">Having medical benifits?</string>
+    <string name="optometrist_ques">From Which store you bought glasses?</string>
+    <string name="glasses_buy_date">Glasses bought date:</string>
+
+</resources>

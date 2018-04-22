@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.conceptcore.patientintake.MainActivity">
+    <item
+        android:id="@+id/help"
+        android:orderInCategory="100"
+        android:title="@string/action_help"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/statics"
+        android:orderInCategory="200"
+        android:title="@string/action_statics"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/importxml"
+        android:orderInCategory="200"
+        android:title="@string/action_import"
+        app:showAsAction="never" />
+</menu>
